@@ -9,7 +9,6 @@ class XiaoNiu{
       let data = this._data = this.$options.data;
       // 遍历data中的数据
       Object.keys(data).forEach((key)=>{
-        
          this._proxy(key)
       })
    };
